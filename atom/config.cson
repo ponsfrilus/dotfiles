@@ -1,0 +1,82 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-gfm"
+      "atom-vue"
+      "behat-atom"
+      "busy-signal"
+      "click-link"
+      "hiera-eyaml"
+      "ide-vue"
+      "imdone-atom"
+      "linter-eslint"
+      "linter-phpcs"
+      "linter"
+      "linter-ui-default"
+      "markdown-preview-enhanced"
+      "markdown-table-editor"
+    ]
+    telemetryConsent: "no"
+    useProxySettingsWhenCallingApm: false
+  editor:
+    defaultFontSize: 15
+    fontSize: 18
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "2c991724-2568-4534-8981-6ed0b8792ca6"
+  "git-blame":
+    columnWidth: 111
+  "linter-ui-default": {}
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  welcome:
+    showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false
+  "wrap-guide":
+    columns: [
+      80
+    ]
+".git-commit.text":
+  editor:
+    preferredLineLength: 80
+  "wrap-guide":
+    columns: [
+      80
+    ]
+".js.source":
+  editor:
+    preferredLineLength: 120
+  "wrap-guide":
+    columns: [
+      80
+      120
+    ]
+".json.source":
+  editor:
+    preferredLineLength: 120
+  "wrap-guide":
+    columns: [
+      80
+      120
+    ]
+".md.text":
+  editor:
+    preferredLineLength: 80
+".null-grammar.plain.text":
+  editor:
+    preferredLineLength: 80
+".source.sql":
+  editor:
+    preferredLineLength: 120
+".source.yml":
+  editor:
+    preferredLineLength: 120
+".text.yml":
+  editor:
+    preferredLineLength: 120
