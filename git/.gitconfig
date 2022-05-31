@@ -1,0 +1,17 @@
+[user]
+	email = ponsfrilus@gmail.com
+	name = ponsfrilus
+[pack]
+	threads = 5
+[core]
+	excludesfile = /home/nborboen/.gitignore
+	editor = vim
+[pull]
+	# https://stackoverflow.com/questions/9264314/git-commits-are-duplicated-in-the-same-branch-after-doing-a-rebase/9264653
+	rebase = false
+[diff]
+	tool = meld
+[safe]
+	directory = /srv/go.epfl.ch
+[init]
+	defaultBranch = main
